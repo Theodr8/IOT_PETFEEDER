@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Tombol untuk menghubungkan ke perangkat Bluetooth -->
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Pet Feeder"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect to the Pet Feeder machine"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tombol untuk menyalakan relay -->
+    <Button
+        android:id="@+id/btnActivateRelay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berikan makanan"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tombol untuk mematikan relay -->
+    <Button
+        android:id="@+id/btnDeactivateRelay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dummy doang" />
+    <Button
+        android:id="@+id/btnBacaJarak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baca Jarak"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jarak: -"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp" />
+
+</LinearLayout>
